@@ -51,13 +51,26 @@ a:active {
    text-align: center;
 }
 
+/* The navigation bar */
+.header {
+    overflow: hidden;
+    background-color: #FFF;
+    position: fixed; /* Set the header to fixed position */
+    top: 0; /* Position the header at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Main content of the current page */
+.main {
+    margin-top: 200px; /* Add a top margin to avoid content overlay */
+}
+
 </style>
 <!-- END OF STYLE -->
 
-
-
+<!-- the header, includes title and links -->
 <body style="font-family:athelas;">
-
+<div class="header">
 <br>
 <h1><center><a href="index.html">Michelle Meredith</a></center></h1>
 
@@ -68,18 +81,27 @@ a:active {
 </center>
 <br>
 <hr>
+</div>
+</body>
+<!------------------------------------------>
 
+<!-- the footer w/ copyright note-->
+<body style="font-family:athelas;">
 <div class="footer">
   <p>© 2018, Michelle Meredith</p>
 </div>
-
 </body>
+<!--------------------------------->
 
+<!-- page content goes here -->
 <body>
+	<div class="main">
 <h3>some stuff about me will go here</h3>
 
 <img src="me.jpg" alt="a picture of me :)" width="600" height="400">
 
-
+</div>
 </body>
+<!---------------------------->
+
 </html>
