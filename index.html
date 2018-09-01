@@ -8,36 +8,90 @@
 h1{
 	font-size: 45px;
 	margin-bottom: 0.4em;
-    }
+}
 
 /* LINK FORMATTING */
+a.handwriting{
+	color: white;
+	background-color: white;
+	outline: none;
+	text-decoration: none;
+}
+
+a.handwriting:link {
+	color: white;
+	background-color: white;
+	outline: none;
+	text-decoration: none;
+}
+
+a.handwriting:visited {
+	color: white;
+	background-color: white;
+	outline: none;
+	text-decoration: none;
+}
+
+a.handwriting:hover {
+	color: white;
+	background-color: white;
+	outline: none;
+	text-decoration: none;
+}
+
+a.handwriting:active {
+	color: white;
+	background-color: white;
+	outline: none;
+	text-decoration: none;
+}
+
 a:link {
-    color: black;
-    background-color: transparent;
+    color: white;
+    background-color: tan;
+		outline: solid;
+		outline-color: tan;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 15px;
+		margin: 15px;
+		font-size: 18px;
+
 }
 
 a:visited {
-    color: black;
-    background-color: transparent;
+    color: white;
+    background-color: tan;
+		outline: solid;
+		outline-color: tan;
     text-decoration: none;
-    padding: 10px;
+		padding: 10px 15px;
+		margin: 15px;
+		font-size: 18px;
+
 }
 
 a:hover {
-    color: tan;
-    background-color: transparent;
+    color: black;
+    background-color: white;
+		outline: solid;
+		outline-color: tan;
     text-decoration: none;
-    padding: 10px;
+		padding: 10px 15px;
+		margin: 15px;
+		font-size: 18px;
 
 }
 
 a:active {
-    color: black;
-    background-color: transparent;
+    color: white;
+    background-color: tan;
+		outline: solid;
+		outline-color: tan;
     text-decoration: none;
-    padding: 10px;
+		padding: 10px 15px;
+		margin: 15px;
+		font-size: 18px;
+
 }
 
 /* HORIZONTAL LINE FORMATTING */
@@ -66,17 +120,30 @@ hr {
 .header {
     overflow: hidden;
     background-color: #FFF;
-    position: fixed; /* Set the header to fixed position */
-    top: 0; /* Position the header at the top of the page */
+    position: static; /* Set the header to fixed position */
+    top: 4em;
     width: 100%; /* Full width */
 }
 
 /* Main content of the current page */
 .main {
-    margin-top: 250px; /* Add a top margin to avoid content overlay */
-		margin-left: 7%;
-		margin-bottom: 5%;
+    margin-top: 20em; /* Add a top margin to avoid content overlay */
 }
+
+/* Box that contains the links for about, resume etc.*/
+div.links {
+    background-color: white;
+    outline: solid;
+    outline-color: tan;
+    position: relative;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		margin-right: 250px;
+		margin-left: 250px;
+		overflow: hidden;
+
+}
+
 
 </style>
 <!-- END OF STYLE -->
@@ -87,20 +154,13 @@ hr {
 <br>
 <h1>
 <center>
-	<a href="index.html">
+	<a href="index.html" class="handwriting">
 		<img src="MMHandwriting.png" alt="Michelle Meredith" width="1000" height="150">
 	</a>
 </center>
 </h1>
 
-<center>
-<a href="about.html">About</a>
-<a href="projects.html">Projects</a>
-<a href="temp_resume.pdf">Resume</a>
-</center>
 <br>
-
-<hr class="hr">
 
 </div>
 </body>
@@ -115,9 +175,18 @@ hr {
 <!--------------------------------->
 
 <!-- page content goes here -->
-<body>
-<div class="main">
-<h3>~welcome~</h3>
+<body style="font-family:athelas;">
+	<div class=links>
+	<center>
+		<br>
+		<br>
+	<a href="about.html">About</a>
+	<a href="projects.html">Projects</a>
+	<a href="temp_resume.pdf">Resume</a>
+	<br>
+	<br>
+	<br>
+	</center>
 
 </div>
 </body>
