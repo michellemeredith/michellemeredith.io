@@ -3,89 +3,92 @@
 
 <!-- BEGIN STYLE -->
 <style>
+	/* HEADER FORMATTING */
+	h1 {
+		font-size: 45px;
+		margin-bottom: 0.4em;
+	}
 
-/* HEADER FORMATTING */
-h1{
-	font-size: 45px;
-	margin-bottom: 0.4em;
-    }
+	/* LINK FORMATTING */
+	a:link {
+		color: black;
+		background-color: transparent;
+		text-decoration: none;
+		padding: 10px;
+	}
 
-/* LINK FORMATTING */
-a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-    padding: 10px;
-}
+	a:visited {
+		color: black;
+		background-color: transparent;
+		text-decoration: none;
+		padding: 10px;
+	}
 
-a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-    padding: 10px;
-}
+	a:hover {
+		color: burlywood;
+		background-color: transparent;
+		text-decoration: none;
+		padding: 10px;
 
-a:hover {
-    color: tan;
-    background-color: transparent;
-    text-decoration: none;
-    padding: 10px;
+	}
 
-}
+	a:active {
+		color: black;
+		background-color: transparent;
+		text-decoration: none;
+		padding: 10px;
+	}
 
-a:active {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-    padding: 10px;
-}
+	/* HORIZONTAL LINE FORMATTING */
+	hr {
+		width: 86%;
+		display: block;
+		overflow: hidden;
+		border-style: solid;
+		border-width: 1px;
+		background-color: #222;
+		opacity: .27;
+	}
 
-/* HORIZONTAL LINE FORMATTING */
-hr {
-	width: 86%;
-	display: block;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
-		background-color:#222;
-		opacity: 1;
-}
+	/* FOOTER FORMATTING */
+	.footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: burlywood;
+		color: white;
+		text-align: center;
+	}
 
-/* FOOTER FORMATTING */
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: tan;
-   color: white;
-   text-align: center;
-}
+	/* The navigation bar */
+	.header {
+		overflow: hidden;
+		background-color: #FFF;
+		position: fixed;
+		/* Set the header to fixed position */
+		top: 0;
+		/* Position the header at the top of the page */
+		width: 100%;
+		/* Full width */
+	}
 
-/* The navigation bar */
-.header {
-    overflow: hidden;
-    background-color: #FFF;
-    position: fixed; /* Set the header to fixed position */
-    top: 0; /* Position the header at the top of the page */
-    width: 100%; /* Full width */
-}
-
-/* Main content of the current page */
-.main {
-    margin-top: 250px; /* Add a top margin to avoid content overlay */
+	/* Main content of the current page */
+	.main {
+		margin-top: 250px;
+		/* Add a top margin to avoid content overlay */
 		margin-left: 7%;
 		margin-bottom: 5%;
-}
-
+	}
 </style>
 <!-- END OF STYLE -->
 
 <!-- the header, includes title and links -->
+
 <body style="font-family:athelas;">
-<div class="header">
-<br>
-<h1>
+	<div class="header">
+		<br>
+		<h1>
 <center>
 	<a href="index.html">
 		<img src="MMHandwriting.png" alt="Michelle Meredith" width="500" height="75">
@@ -93,93 +96,95 @@ hr {
 </center>
 </h1>
 
-<center>
-	<a href="about.html">About</a>
-	<a href="projects.html">Projects</a>
-	<a href="temp_resume.pdf">Resume</a>
-</center>
-<br>
-<hr>
-</div>
+		<center>
+			<a href="about.html">About</a>
+			<a href="projects.html">Projects</a>
+			<a href="temp_resume.pdf">Resume</a>
+		</center>
+		<br>
+		<hr>
+	</div>
 </body>
 <!------------------------------------------>
 
 <!-- the footer w/ copyright note-->
+
 <body style="font-family:athelas;">
-<div class="footer">
-  <p>© 2018, Michelle Meredith</p>
-</div>
+	<div class="footer">
+		<p>© 2018, Michelle Meredith</p>
+	</div>
 </body>
 <!--------------------------------->
 
 <!-- page content goes here -->
+
 <body>
-<div class="main">
-<h3>my projects will go here</h3>
+	<div class="main">
+		<h3>my projects will go here</h3>
 
-<h3> for testing purposes: </h3>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h3> one </h3>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h3> two </h3>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h3> three </h3>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h3> four </h3>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h3> five </h3>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h3> :) </h3>
+		<h3> for testing purposes: </h3>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3> one </h3>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3> two </h3>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3> three </h3>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3> four </h3>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3> five </h3>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3> :) </h3>
 
-</div>
+	</div>
 </body>
 <!---------------------------->
 

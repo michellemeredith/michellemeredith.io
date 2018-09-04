@@ -3,139 +3,139 @@
 
 <!-- BEGIN STYLE -->
 <style>
+	/* HEADER FORMATTING */
+	h1 {
+		font-size: 45px;
+		margin-bottom: 0.4em;
+	}
 
-/* HEADER FORMATTING */
-h1{
-	font-size: 45px;
-	margin-bottom: 0.4em;
-}
+	/* LINK FORMATTING */
+	a.handwriting {
+		color: white;
+		background-color: white;
+		outline: none;
+		text-decoration: none;
+	}
 
-/* LINK FORMATTING */
-a.handwriting{
-	color: white;
-	background-color: white;
-	outline: none;
-	text-decoration: none;
-}
+	a.handwriting:link {
+		color: white;
+		background-color: white;
+		outline: none;
+		text-decoration: none;
+	}
 
-a.handwriting:link {
-	color: white;
-	background-color: white;
-	outline: none;
-	text-decoration: none;
-}
+	a.handwriting:visited {
+		color: white;
+		background-color: white;
+		outline: none;
+		text-decoration: none;
+	}
 
-a.handwriting:visited {
-	color: white;
-	background-color: white;
-	outline: none;
-	text-decoration: none;
-}
+	a.handwriting:hover {
+		color: white;
+		background-color: white;
+		outline: none;
+		text-decoration: none;
+	}
 
-a.handwriting:hover {
-	color: white;
-	background-color: white;
-	outline: none;
-	text-decoration: none;
-}
+	a.handwriting:active {
+		color: white;
+		background-color: white;
+		outline: none;
+		text-decoration: none;
+	}
 
-a.handwriting:active {
-	color: white;
-	background-color: white;
-	outline: none;
-	text-decoration: none;
-}
-
-a:link {
-    color: white;
-    background-color: tan;
+	a:link {
+		color: white;
+		background-color: burlywood;
 		outline: solid;
-		outline-color: tan;
-    text-decoration: none;
-    padding: 10px 15px;
-		margin: 15px;
-		font-size: 18px;
-
-}
-
-a:visited {
-    color: white;
-    background-color: tan;
-		outline: solid;
-		outline-color: tan;
-    text-decoration: none;
+		outline-color: burlywood;
+		text-decoration: none;
 		padding: 10px 15px;
 		margin: 15px;
 		font-size: 18px;
 
-}
+	}
 
-a:hover {
-    color: black;
-    background-color: white;
+	a:visited {
+		color: white;
+		background-color: burlywood;
 		outline: solid;
-		outline-color: tan;
-    text-decoration: none;
+		outline-color: burlywood;
+		text-decoration: none;
 		padding: 10px 15px;
 		margin: 15px;
 		font-size: 18px;
 
-}
+	}
 
-a:active {
-    color: white;
-    background-color: tan;
+	a:hover {
+		color: black;
+		background-color: white;
 		outline: solid;
-		outline-color: tan;
-    text-decoration: none;
+		outline-color: burlywood;
+		text-decoration: none;
 		padding: 10px 15px;
 		margin: 15px;
 		font-size: 18px;
 
-}
+	}
 
-/* HORIZONTAL LINE FORMATTING */
-hr {
-	width: 86%;
-	display: block;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
-		background-color:#222;
-		opacity: 1;
-}
+	a:active {
+		color: white;
+		background-color: burlywood;
+		outline: solid;
+		outline-color: burlywood;
+		text-decoration: none;
+		padding: 10px 15px;
+		margin: 15px;
+		font-size: 18px;
 
-/* FOOTER FORMATTING */
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: tan;
-   color: white;
-   text-align: center;
-}
+	}
 
-/* Handwriting */
-.header {
-    overflow: hidden;
-    background-color: #FFF;
-    position: static;
-    margin-top: 4em;
+	/* HORIZONTAL LINE FORMATTING */
+	hr {
+		width: 86%;
+		display: block;
+		overflow: hidden;
+		border-style: solid;
+		border-width: 1px;
+		background-color: #222;
+		opacity: .27;
+	}
+
+	/* FOOTER FORMATTING */
+	.footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
 		width: 100%;
-}
+		background-color: burlywood;
+		color: white;
+		text-align: center;
+	}
 
-/* Main content of the current page */
-.main {
-    margin-top: 20em; /* Add a top margin to avoid content overlay */
-}
+	/* Handwriting */
+	.header {
+		overflow: hidden;
+		background-color: #FFF;
+		position: static;
+		margin-top: 4em;
+		width: 100%;
+	}
 
-/* Box that contains the links for about, resume etc.*/
-div.links {
-    background-color: white;
-    outline: solid;
-    outline-color: tan;
-    position: static;
+	/* Main content of the current page */
+	.main {
+		margin-top: 20em;
+		/* Add a top margin to avoid content overlay */
+	}
+
+	/* Box that contains the links for about, resume etc.*/
+	div.links {
+		background-color: white;
+		outline: solid;
+		outline-color: burlywood;
+		position: static;
 		overflow: hidden;
 		padding-top: 40px;
 		padding-bottom: 40px;
@@ -143,17 +143,16 @@ div.links {
 		margin-right: 25%;
 		width: 50%;
 		min-width: 400px;
-}
-
-
+	}
 </style>
 <!-- END OF STYLE -->
 
 <!-- the header, includes title and links -->
+
 <body style="font-family:athelas;">
-<div class="header">
-<br>
-<h1>
+	<div class="header">
+		<br>
+		<h1>
 <center>
 	<a href="index.html" class="handwriting">
 		<img src="MMHandwriting.png" alt="Michelle Meredith" width="1000" height="150">
@@ -161,35 +160,40 @@ div.links {
 </center>
 </h1>
 
-<br>
+		<br>
+
+
 
 </div>
 </body>
 <!------------------------------------------>
 
 <!-- the footer w/ copyright note-->
+
 <body style="font-family:athelas;">
-<div class="footer">
-  <p>© 2018, Michelle Meredith</p>
-</div>
+	<div class="footer">
+		<p>© 2018, Michelle Meredith</p>
+	</div>
 </body>
 <!--------------------------------->
 
 <!-- page content goes here -->
+
 <body style="font-family:athelas;">
 	<div class=links>
-	<center>
-		<br>
-		<br>
-	<a href="about.html">About</a>
-	<a href="projects.html">Projects</a>
-	<a href="temp_resume.pdf">Resume</a>
-	<br>
-	<br>
-	<br>
+		<center>
+			<br>
+			<br>
+			<a href="about.html">About</a>
+			<a href="projects.html">Projects</a>
+			<a href="temp_resume.pdf">Resume</a>
+			<br>
+			<br>
+			<br>
+
 	</center>
 
-</div>
+	</div>
 </body>
 <!---------------------------->
 
