@@ -80,6 +80,27 @@
 		margin-left: 7%;
 		margin-bottom: 5%;
 	}
+
+	/* Create two equal columns that floats next to each other */
+	.column {
+		float: left;
+		width: 50%;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 950px) {
+		.column {
+			width: 100%;
+		}
+	}
+
 </style>
 <!-- END OF STYLE -->
 
@@ -99,7 +120,7 @@
 		<center>
 			<a href="about.html">About</a>
 			<a href="projects.html">Projects</a>
-			<a href="res_no_address.pdf">Resume</a>
+			<a href="res_no_address.pdf" target="_blank" >Resume</a>
 		</center>
 		<br>
 		<hr>
@@ -120,8 +141,43 @@
 
 <body>
 	<div class="main">
-		<h3>projects coming soon!</h3>
+		<div class="row">
+			<div class="column">
+				<p> </p>
+				<img src="website_wip1.png" alt="work in progress pic" width="90%" height="auto">
+			</div>
+			<div class="column">
+				<h2>Personal Website</h2>
+				<p>
+					HTML, CSS; Illustrator
+				</p>
+				<p>
 
+				</p>
+
+				<div class="hr2"></div>
+			</div>
+		</div>
+
+		<p></p>
+
+		<div class="row">
+			<div class="column">
+				<p> </p>
+				<img src="mv_black.png" alt="work in progress pic" width="90%" height="auto">
+			</div>
+			<div class="column">
+				<h2>Music Visualizer</h2>
+				<p>
+					Java; Processing
+				</p>
+				<p>
+
+				</p>
+
+				<div class="hr2"></div>
+			</div>
+		</div>
 	</div>
 </body>
 <!---------------------------->
