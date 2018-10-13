@@ -77,61 +77,24 @@
 	.main {
 		margin-top: 250px;
 		/* Add a top margin to avoid content overlay */
-		margin-left: 7%;
-		margin-bottom: 5%;
+    float: center;
+
 	}
 
-	/* Create two equal columns that floats next to each other */
-	.column {
-		float: left;
-		width: 50%;
-	}
+  .pictures {
+    color: burlywood;
+    text-align: center;
 
-	/* Clear floats after the columns */
-	.row:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+  }
 
-	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-	@media screen and (max-width: 950px) {
-		.column {
-			width: 100%;
-		}
-	}
+  .description {
+    color: grey;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 110px;
+    margin-right: 110px;
+  }
 
-	a.project {
-		color: black;
-		outline: none;
-		text-decoration: none;
-		font-size: 30px;
-		float: left;
-	}
-
-	a.project:link {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-	}
-
-	a.project:visited {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-	}
-
-	a.project:hover {
-		color: burlywood;
-		background-color: transparent;
-		text-decoration: none;
-	}
-
-	a.project:active {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-	}
 
 
 </style>
@@ -174,36 +137,24 @@
 
 <body>
 	<div class="main">
-		<div class="row">
-			<div class="column">
-				<img src="website_wip1.png" alt="work in progress pic" width="90%" height="auto">
-			</div>
-			<div class="column">
-				<a href="project01.html" class="project">Personal Website</a>
-			</div>
-		</div>
+    <div class="pictures">
+      <h2> Password Generator </h2>
+    <img src="pwgen_gif.gif" alt="password generator pic pic" width="60%" height="auto">
+  </div>
+  <div class="description">
+    <p> Languages & Software: Java; IntelliJ Idea
+    <p> This is a program that generates randomized passwords. </p>
+    <p> There are two main options for a new password:</p>
+		<p>    - Default: a password containing 4 words chosen at random. </p>
+		<p>    - Customized: the user can choose how the number of words, capitalized words, numbers, and symbols
+			in the password. </p>
+		<p> ------ </p>
+		<p> Since this project stemmed from a class assignment, the code for the project is in a private repo.
+			Please email me (meredith.m@husky.neu.edu) if you would like to have access to the repo! </p>
+    <br>
+    <br>
+    <br>
 
-		<p></p>
-
-		<div class="row">
-			<div class="column">
-				<img src="mv_black.png" alt="music visualizer pic" width="90%" height="auto">
-			</div>
-			<div class="column">
-				<a href="project02.html" class="project">Music Visualizer</a>
-			</div>
-		</div>
-
-		<p></p>
-
-		<div class="row">
-			<div class="column">
-				<img src="pwgen_pic.png" alt="password generator pic" width="90%" height="auto">
-			</div>
-			<div class="column">
-				<a href="project03.html" class="project">Password Generator</a>
-			</div>
-		</div>
 	</div>
 </body>
 <!---------------------------->
