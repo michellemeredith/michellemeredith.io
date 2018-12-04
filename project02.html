@@ -1,148 +1,43 @@
 <!DOCTYPE html>
 <html>
-
-<!-- BEGIN STYLE -->
-<style>
-	/* HEADER FORMATTING */
-	h1 {
-		font-size: 45px;
-		margin-bottom: 0.4em;
-	}
-
-	/* LINK FORMATTING */
-	a:link {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-		padding: 10px;
-	}
-
-	a:visited {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-		padding: 10px;
-	}
-
-	a:hover {
-		color: burlywood;
-		background-color: transparent;
-		text-decoration: none;
-		padding: 10px;
-
-	}
-
-	a:active {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-		padding: 10px;
-	}
-
-	/* HORIZONTAL LINE FORMATTING */
-	hr {
-		width: 86%;
-		display: block;
-		overflow: hidden;
-		border-style: solid;
-		border-width: 1px;
-		background-color: #222;
-		opacity: .27;
-	}
-
-	/* FOOTER FORMATTING */
-	.footer {
-		position: fixed;
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		background-color: burlywood;
-		color: white;
-		text-align: center;
-	}
-
-	/* The navigation bar */
-	.header {
-		overflow: hidden;
-		background-color: #FFF;
-		position: fixed;
-		/* Set the header to fixed position */
-		top: 0;
-		/* Position the header at the top of the page */
-		width: 100%;
-		/* Full width */
-	}
-
-	/* Main content of the current page */
-	.main {
-		margin-top: 250px;
-		/* Add a top margin to avoid content overlay */
-    float: center;
-
-	}
-
-  .pictures {
-    color: burlywood;
-    text-align: center;
-
-  }
-
-  .description {
-    color: grey;
-    font-size: 20px;
-    text-align: left;
-    margin-left: 110px;
-    margin-right: 110px;
-  }
-
-
-
-</style>
-<!-- END OF STYLE -->
-
-<!-- the header, includes title and links -->
-
-<body style="font-family:athelas;">
-	<div class="header">
-		<br>
-		<h1>
-<center>
-	<a href="index.html">
-		<img src="MMHandwriting.png" alt="Michelle Meredith" width="500" height="75">
-	</a>
-</center>
-</h1>
-
-		<center>
-			<a href="about.html">About</a>
-			<a href="projects.html">Projects</a>
-			<a href="MichelleMeredithResume.pdf" target="_blank" >Resume</a>
-		</center>
-		<br>
-		<hr>
-	</div>
-</body>
-<!------------------------------------------>
-
-<!-- the footer w/ copyright note-->
-
-<body style="font-family:athelas;">
-	<div class="footer">
-		<p>© 2018, Michelle Meredith</p>
-	</div>
-</body>
-<!--------------------------------->
-
-<!-- page content goes here -->
-
-<body>
-	<div class="main">
-    <div class="pictures">
-      <h2> Music Visualizer </h2>
-    <img src="mvGif.gif" alt="gif of music visualizer" width="80%" height="auto">
-  </div>
-  <div class="description">
-		<p><b> Languages & Software: Java; Eclipse, Processing </b></p>
+    <head>
+    <title>Michelle Meredith: Music Visualizer</title>
+        <link rel="stylesheet"
+              type="text/css"
+              href="main.css"/>
+    </head>
+    <body>
+        
+            <div class="banner">
+            <a href="index.html" class="handwriting">
+                <img src="MMHandwriting.png" alt="Michelle Meredith" width="500" height="75">
+            </a>
+        
+        
+        <div class="nav-links">
+            <a href="about.html" class="nav-link"> 
+                <span class="animate-underline">
+                    About</span></a>
+            <a href="projects.html" class="nav-link"> 
+                <span class="animate-underline">
+                    Projects</span></a>
+            <a href="MichelleMeredithResume.pdf" target="_blank"  class="nav-link"> 
+                <span class="animate-underline">
+                    Resume</span></a>
+        </div>
+                <div class="hl"></div>
+            </div>
+        
+    </body>
+    
+    <body>
+        <div class="content">
+            
+            <h2> Music Visualizer </h2>
+            <div class="project-pics">
+                <img src="mvGif.gif" alt="gif of music visualizer" width="80%" height="auto"></div>
+            
+            <p><b> Languages & Software: Java; Eclipse, Processing </b></p>
     <p> This program generates a visual image that reacts to different components of a song.
 		 		Using the Mimim library, it analyzes different components of a user-chosen mp3 file
 				and changes different components of the image depending on these components, such as
@@ -153,12 +48,14 @@
     <p> This is just one example of a music visualizer that I have made. After creating my first
 		 		visualizer at a Java coding intensive a few summers ago, I have created a few iterations
 				of music visualizers--they are one of my favorite side projects to toy around with!</p>
-    <br>
-    <br>
-    <br>
-
-	</div>
-</body>
-<!---------------------------->
-
+            
+            
+            
+            
+		</div>
+             
+        <footer>
+            &copy 2018, Michelle Meredith
+        </footer>
+    </body>
 </html>

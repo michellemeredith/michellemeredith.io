@@ -1,200 +1,43 @@
 <!DOCTYPE html>
 <html>
-
-<!-- BEGIN STYLE -->
-
-<style>
-	/* HEADER FORMATTING */
-	h1 {
-		font-size: 45px;
-		margin-bottom: 0.4em;
-	}
-
-	/* LINK FORMATTING */
-	a:link {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-		padding: 10px;
-	}
-
-	a:visited {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-		padding: 10px;
-	}
-
-	a:hover {
-		color: burlywood;
-		background-color: transparent;
-		text-decoration: none;
-		padding: 10px;
-
-	}
-
-	a:active {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-		padding: 10px;
-	}
-
-	/* HORIZONTAL LINE FORMATTING */
-	hr {
-		width: 86%;
-		display: block;
-		overflow: hidden;
-		border-style: solid;
-		border-width: 1px;
-		background-color: #222;
-		opacity: .27;
-	}
-
-	/* SMALLER HORIZONTAL LINE */
-	.hr2 {
-		width: 50%;
-		display: block;
-		overflow: hidden;
-		border-style: solid;
-		border-width: 1px;
-		background-color: #222;
-		opacity: .27;
-		margin-top: 30px;
-		margin-bottom: 30px;
-		margin-left: 25%;
-	}
-
-	/* FOOTER FORMATTING */
-	.footer {
-		position: fixed;
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		background-color: burlywood;
-		color: white;
-		text-align: center;
-	}
-
-	/* The navigation bar */
-	.header {
-		overflow: hidden;
-		background-color: #FFF;
-		position: fixed;
-		/* Set the header to fixed position */
-		top: 0;
-		/* Position the header at the top of the page */
-		width: 100%;
-		/* Full width */
-	}
-
-	/* Main content of the current page */
-	.main {
-		margin-top: 250px;
-		/* Add a top margin to avoid content overlay */
-		margin-left: 7%;
-		margin-right: 6%;
-		margin-bottom: 5%;
-	}
-
-	.contact_links {
-		overflow: hidden;
-		/*position: absolute;*/
-		text-align: center;
-	}
-
-	a.contact_link {
-		color: grey;
-	}
-
-	a.contact_link:link {
-		color: grey;
-	}
-
-	a.contact_link:visited {
-		color: grey;
-	}
-
-	a.contact_link:hover {
-		color: burlywood;
-	}
-
-	a.contact_link:active {
-		color: burlywood;
-	}
-
-	* {
-		box-sizing: border-box;
-	}
-
-	/* Create two equal columns that floats next to each other */
-	.column {
-		float: left;
-		width: 50%;
-	}
-
-	/* Clear floats after the columns */
-	.row:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-
-	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-	@media screen and (max-width: 950px) {
-		.column {
-			width: 100%;
-		}
-	}
-</style>
-<!-- END OF STYLE -->
-
-<!-- the header, includes title and links -->
-
-<body style="font-family:athelas;">
-	<div class="header">
-		<br>
-		<h1>
-<center>
-	<a href="index.html">
-		<img src="MMHandwriting.png" alt="Michelle Meredith" width="500" height="75">
-	</a>
-</center>
-</h1>
-
-		<center>
-			<a href="about.html">About</a>
-			<a href="projects.html">Projects</a>
-			<a href="MichelleMeredithResume.pdf" target="_blank" >Resume</a>
-		</center>
-		<br>
-		<hr>
-	</div>
-</body>
-<!------------------------------------------>
-
-<!-- the footer w/ copyright note-->
-
-<body style="font-family:athelas;">
-	<div class="footer">
-		<p>© 2018, Michelle Meredith</p>
-	</div>
-</body>
-<!--------------------------------->
-
-<!-- page content goes here -->
-
-<body>
-	<div class="main">
-
-		<div class="row">
-			<div class="column">
-				<p> </p>
-				<img src="me2.jpg" alt="a picture of me :)" width="90%" height="auto">
-
-  </div>
-			<div class="column">
-				<h2>Hello!</h2>
+    <head>
+    <title>About</title>
+        <link rel="stylesheet"
+              type="text/css"
+              href="main.css"/>
+    </head>
+    <body>
+        
+            <div class="banner">
+            <a href="index.html" class="handwriting">
+                <img src="MMHandwriting.png" alt="Michelle Meredith" width="500" height="75">
+            </a>
+        
+        
+        <div class="nav-links">
+            <a href="about.html" class="nav-link"> 
+                <span class="animate-underline">
+                    About</span></a>
+            <a href="projects.html" class="nav-link"> 
+                <span class="animate-underline">
+                    Projects</span></a>
+            <a href="MichelleMeredithResume.pdf" target="_blank"  class="nav-link"> 
+                <span class="animate-underline">
+                    Resume</span></a>
+        </div>
+                <div class="hl"></div>
+            </div>
+        
+    </body>
+    
+    <body>
+        <div class="content">
+            <div class="row">
+                <div class="column">
+                    <img src="me2.jpg" alt="a picture of me :)" width="90%" height="auto">
+                </div>
+                <div class="column">
+                    <h2>Hello!</h2>
 				<p>
 					I'm Michelle, a sophomore at Northeastern University in Boston.
 					I'm currently pursing a degree in Computer Science and Economics and
@@ -208,22 +51,24 @@
 					a solid economic view in mind.
 				</p>
 				<p>
-					When I'm not tackling problem sets and programming, I love to stretch
-					my wings artistically through my fashion studies.
+					When I'm not tackling problem sets or programming, I love to stretch
+					my mind artistically through my fashion studies.
 				</p>
-
-				<div class="hr2"></div>
-
-				<div class="contact_links">
-					<a href="https://github.com/michellemeredith" target="_blank" class="contact_link">github</a>
-					<a href="https://www.linkedin.com/in/michelle-meredith/" target="_blank" class="contact_link">linkedin</a>
+                    
+                    
+                <div class="contact_links">
+                    <a href="https://github.com/michellemeredith" target="_blank"  class="contact-link">
+                        <span class="animate-underline">GitHub</span></a>
+                    <a href="https://www.linkedin.com/in/michelle-meredith/" target="_blank"  class="contact-link"><span class="animate-underline">LinkedIn</span></a>
 				</div>
+                </div>
+            </div>
+        </div>
+       
 
-
-			</div>
-		</div>
-	</div>
-</body>
-<!---------------------------->
-
+       
+        <footer>
+            &copy 2018, Michelle Meredith
+        </footer>
+    </body>
 </html>
