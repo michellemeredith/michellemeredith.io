@@ -10,9 +10,11 @@ body {
 header {
     background-color: #FFF;
     position: static;
-    margin-top: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 3em;
     width: 100%;
     text-align: center;
+    
 }
 
 footer {
@@ -24,6 +26,7 @@ footer {
     background-color: peachpuff;
     color: dimgray;
     text-align: center;
+    font-size: 15px;
 
 }
 
@@ -63,15 +66,17 @@ a.handwriting:hover {
 }
 
 .banner {
-    overflow: hidden;
     width: 100%;
-    position: static;
-    margin-top: 2rem;
+    position: fixed;
+    color: white;
     text-align: center;
+    top: 0;
+    background: white;
 }
 
 .hl {
-    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 2.5em solid white;
     width: 94%;
     margin: auto;
     text-align: center;
@@ -97,9 +102,6 @@ a.handwriting:hover {
     float: left;
     width: 50%;
 }
-.row {
-    margin-top: 
-}
 
 /* Clear floats after the columns */
 .row:after {
@@ -116,9 +118,10 @@ a.handwriting:hover {
 }
 
 .content {
-    margin-top: 2em;
+    margin-top: 11em;
     margin-bottom: 2em;
-    margin: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
     text-align: left;
 }
 
@@ -144,6 +147,32 @@ h2 {
 
 .project-pics {
     text-align: center;
+}
+
+.typewriter {
+    font-family: Courier;
+    font-size: 30px;
+    font-weight:1;
+    text-align: center;
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+    color: dimgrey;   
+}
+
+.typewriter2 {
+    font-family: Courier;
+    font-size: 25px;
+    font-weight:1;
+    text-align: left;
+    /*border-right: 0.05em solid;
+    animation: caret 1s steps(1) infinite;*/
+    color: dimgrey
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }
     
 
